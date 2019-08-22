@@ -31,11 +31,11 @@ const LandingPage = () => {
         <div className="bx--col-lg-16">
           <Breadcrumb noTrailingSlash aria-label="Page navigation">
             <BreadcrumbItem>
-              <a href="/">Getting started</a>
+              <a href="/">Путеводитель рыбака по Беларуси</a>
             </BreadcrumbItem>
           </Breadcrumb>
           <h1 className="landing-page__heading">
-            Design &amp; build with Carbon
+            Рыбалка в Беларуси
           </h1>
         </div>
       </div>
@@ -45,9 +45,9 @@ const LandingPage = () => {
             <Tab {...props.tab} label="About">
               <div className="bx--grid bx--grid--no-gutter bx--grid--full-width">
                 <div className="bx--row landing-page__tab-content">
-                  <div className="bx--col-md-4 bx--col-lg-7">
+                  <div className="bx--col-md-4 bx--col-lg-6">
                     <h2 className="landing-page__subheading">
-                      What is Carbon?
+                      Где порыбачить на Браславских озерах?
                     </h2>
                     <p className="landing-page__p">
                       Carbon is IBM’s open-source design system for digital
@@ -58,10 +58,10 @@ const LandingPage = () => {
                     </p>
                     <Button>Learn more</Button>
                   </div>
-                  <div className="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">
+                  <div className="bx--col-md-4 bx--col-lg-10">
                     <img
                       className="landing-page__illo"
-                      src={`${process.env.PUBLIC_URL}/tab-illo.png`}
+                      src={`${process.env.PUBLIC_URL}/home_banner.png`}
                       alt="Carbon illustration"
                     />
                   </div>

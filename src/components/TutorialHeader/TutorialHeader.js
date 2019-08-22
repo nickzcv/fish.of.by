@@ -16,8 +16,8 @@ import { Link } from 'react-router-dom';
 const TutorialHeader = () => (
   <Header aria-label="Carbon Tutorial">
     <SkipToContent />
-    <HeaderName element={Link} to="/" prefix="IBM">
-      Carbon Tutorial
+    <HeaderName element={Link} to="/" prefix="Fish of">
+      Belarus
     </HeaderName>
     <HeaderNavigation aria-label="Carbon Tutorial">
       <HeaderMenuItem element={Link} to="/repos">
