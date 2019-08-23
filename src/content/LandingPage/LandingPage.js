@@ -31,7 +31,7 @@ const LandingPage = () => {
         <div className="bx--col-lg-16">
           <Breadcrumb noTrailingSlash aria-label="Page navigation">
             <BreadcrumbItem>
-              <a href="/">Путеводитель рыбака по Беларуси</a>
+              <a href="/">Путеводитель рыбака</a>
             </BreadcrumbItem>
           </Breadcrumb>
           <h1 className="landing-page__heading">
@@ -42,23 +42,24 @@ const LandingPage = () => {
       <div className="bx--row landing-page__r2">
         <div className="bx--col bx--no-gutter">
           <Tabs {...props.tabs} aria-label="Tab navigation">
-            <Tab {...props.tab} label="About">
+            <Tab {...props.tab} label="Браславские озера">
               <div className="bx--grid bx--grid--no-gutter bx--grid--full-width">
                 <div className="bx--row landing-page__tab-content">
-                  <div className="bx--col-md-4 bx--col-lg-6">
+                  <div className="bx--col-md-4 bx--col-lg-7">
                     <h2 className="landing-page__subheading">
                       Где порыбачить на Браславских озерах?
                     </h2>
                     <p className="landing-page__p">
-                      Carbon is IBM’s open-source design system for digital
-                      products and experiences. With the IBM Design Language as
-                      its foundation, the system consists of working code,
-                      design tools and resources, human interface guidelines,
-                      and a vibrant community of contributors.
+                      <div>Рыбалка на озере Пагоща/Браславские озера.</div>
+
+                      Пагошча — возера ў Браслаўскім раёне Віцебскай вобласьці. Знаходзіцца за 12 км на паўднёвы ўсход ад Браслава каля вёскі Пагошча. Належыць да групы Браслаўскіх азёр.
                     </p>
-                    <Button>Learn more</Button>
+                    <p className="landing-page__p">
+                    Лучшая рыбалка в Браслав. Дом на берегу озера. Камин, печь, свой подход к воде.
+                    </p>
+                    <Button>Подробнее</Button>
                   </div>
-                  <div className="bx--col-md-4 bx--col-lg-10">
+                  <div className="bx--col-md-4 bx--col-lg-9">
                     <img
                       className="landing-page__illo"
                       src={`${process.env.PUBLIC_URL}/home_banner.png`}
@@ -68,22 +69,12 @@ const LandingPage = () => {
                 </div>
               </div>
             </Tab>
-            <Tab {...props.tab} label="Design">
+            <Tab {...props.tab} label="р. Березина">
               <div className="bx--grid bx--grid--no-gutter bx--grid--full-width">
                 <div className="bx--row landing-page__tab-content">
                   <div className="bx--col-lg-16">
                     Rapidly build beautiful and accessible experiences. The
                     Carbon kit contains all resources you need to get started.
-                  </div>
-                </div>
-              </div>
-            </Tab>
-            <Tab {...props.tab} label="Develop">
-              <div className="bx--grid bx--grid--no-gutter bx--grid--full-width">
-                <div className="bx--row landing-page__tab-content">
-                  <div className="bx--col-lg-16">
-                    Carbon provides styles and components in Vanilla, React,
-                    Angular, and Vue for anyone building on the web.
                   </div>
                 </div>
               </div>

@@ -20,8 +20,8 @@ const TutorialHeader = () => (
       Belarus
     </HeaderName>
     <HeaderNavigation aria-label="Carbon Tutorial">
-      <HeaderMenuItem element={Link} to="/repos">
-        Repositories
+      <HeaderMenuItem element={Link} to="/">
+        Путеводитель рыбака по Беларуси
       </HeaderMenuItem>
     </HeaderNavigation>
     <HeaderGlobalBar>
